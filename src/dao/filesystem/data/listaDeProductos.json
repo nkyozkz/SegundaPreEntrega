@@ -8,9 +8,7 @@
     "status": true,
     "stock": 14,
     "category": "Zapatos Y Botas",
-    "thumbnail": [
-      "imagen 1"
-    ]
+    "thumbnail": "imagen 1"
   },
   {
     "id": 2,
@@ -21,9 +19,8 @@
     "status": true,
     "stock": 9,
     "category": "Bolsos Y Mochilas",
-    "thumbnail": [
-      "imagen 2"
-    ]
+    "thumbnail": "imagen 2"
+    
   },
   {
     "id": 3,
@@ -34,9 +31,7 @@
     "status": true,
     "stock": 7,
     "category": "Deportes",
-    "thumbnai": [
-      "imagen 3"
-    ]
+    "thumbnai": "imagen 3"
   },
   {
     "id": 4,
@@ -47,9 +42,7 @@
     "status": true,
     "stock": 10,
     "category": "Equipamiento",
-    "thumbnail": [
-      "imagen 4"
-    ]
+    "thumbnail": "imagen 4"
   },
   {
     "id": 5,
@@ -60,12 +53,6 @@
     "status": true,
     "stock": 25,
     "category": "Snacks",
-    "thumbnail": [
-      "imagen 5"
-    ]
-  },
-  {
-    "id": 6,
-    "status": true
+    "thumbnail": "imagen 5"
   }
 ]

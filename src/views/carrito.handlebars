@@ -1,0 +1,24 @@
+{{#if traerProductos}}
+<div class="wrapperCarrito">
+    <div class="contenedorCarrito">
+        <h4>Articulos en carrito:</h4>
+        {{#each traerProductos}}
+        <div class="cardCarrito">
+            <div class="imagenCarrito">
+                <img src="{{this.thumbnail}}" alt="{{this.title}}">
+            </div>
+            <div class="informacionCard">
+                <h3 class="tituloCardCarrito">{{this.title}}</h3>
+                <div class="eliminarObjeto" title="Eliminar objeto"><span>X</span></div>
+                <div class="datosImportantes">
+                    <h5>Stock={{this.stock}}</h5>
+                    <h5>Precio unitario=${{this.price}}</h5>
+                    <h5>Cantidad= {{this.quantity}}</h5>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+    <div class="footerCarrito"></div>
+</div>
+{{/if}}

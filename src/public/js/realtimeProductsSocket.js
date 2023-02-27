@@ -21,9 +21,8 @@ socket.on("datos", (data) => {
                 <p> ${element.description}</p>
             </div>
             <div class="cardHoverPrice">
-                <div class="stockIdPrice">
-                    <h3>Id=${element.id}</h3>
-                    <h3>Price = ${element.price}</h3>
+                    <div class="stockIdPrice">
+                    <h3>Price = $${element.price}</h3>
                     <h3>Stock= ${element.stock}</h3>
                 </div>
             </div>
